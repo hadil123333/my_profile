@@ -1,0 +1,40 @@
+.apply-section {
+  background-color: #f8f8f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.apply-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.apply-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.apply-form input,
+.apply-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.apply-form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apply-form button:hover {
+  background-color: #0056b3;
+}
