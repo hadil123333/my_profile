@@ -1,22 +1,73 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
-
-@import url("components/avatar.css");
-@import url("components/banner.css");
-@import url("components/button.css");
-@import url("components/card.css");
-@import url("components/container.css");
-@import url("components/form.css");
-
-
 body {
-  font-family: 'Lora', serif;
-  font-size: 18px;
   margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  color: #333;
 }
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+
+.cv-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-a {
-  text-decoration: none;
+
+.sidebar {
+  width: 30%;
+  background-color: skyblue;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.sidebar p,
+.sidebar ul {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content {
+  width: 70%;
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 32px;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.content h2 {
+  margin-top: 30px;
+  color: #1c1c1c;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.content h3 {
+  margin-top: 20px;
+  color: #444;
+}
+
+.content ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 14px;
+
 }
